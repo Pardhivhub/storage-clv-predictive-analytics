@@ -33,7 +33,8 @@ def main():
     for name, script in SCRIPTS:
         print(f"\n>>> EXECUTING: {name} ({script})")
         print("-" * 80)
-        script_path = os.path.join(base_dir, script)
+        src_path = os.path.join(base_dir, "src", script)
+        script_path = src_path if os.path.exists(src_path) else os.path.join(base_dir, script)
         res = subprocess.run([sys.executable, script_path], cwd=base_dir)
         if res.returncode != 0:
             print(f"FAILED at {name} (exit code {res.returncode})")

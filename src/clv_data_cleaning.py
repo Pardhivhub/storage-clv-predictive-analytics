@@ -201,12 +201,16 @@ def print_audit_report(audit_log: Dict[str, Any]):
 
 
 if __name__ == "__main__":
-    raw_path = "/Users/pardhivkrishna/everpure/clv_pipeline/data/Case_Study_2_CLV_Predictive_Analytics.csv"
+    _this_dir   = os.path.dirname(os.path.abspath(__file__))
+    BASE_DIR    = os.path.dirname(_this_dir) if os.path.basename(_this_dir) == "src" else _this_dir
+    DATA_DIR    = os.path.join(BASE_DIR, "data")
+    
+    raw_path = os.path.join(DATA_DIR, "Case_Study_2_CLV_Predictive_Analytics.csv")
     raw_df = load_raw_data(raw_path)
     labeled_df, unlabeled_df, audit_log = execute_validation_cleaning_pipeline(raw_df)
     print_audit_report(audit_log)
     
     # Save partitioned clean datasets
-    labeled_df.to_csv("/Users/pardhivkrishna/everpure/clv_pipeline/data/clv_cleaned_labeled.csv", index=False)
-    unlabeled_df.to_csv("/Users/pardhivkrishna/everpure/clv_pipeline/data/clv_cleaned_scoring_unlabeled.csv", index=False)
+    labeled_df.to_csv(os.path.join(DATA_DIR, "clv_cleaned_labeled.csv"), index=False)
+    unlabeled_df.to_csv(os.path.join(DATA_DIR, "clv_cleaned_scoring_unlabeled.csv"), index=False)
     print("[SUCCESS] Verified cleaned datasets exported successfully.")

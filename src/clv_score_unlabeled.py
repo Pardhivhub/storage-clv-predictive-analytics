@@ -25,7 +25,8 @@ import shap
 
 warnings.filterwarnings("ignore")
 
-BASE_DIR    = os.path.dirname(os.path.abspath(__file__))
+_this_dir   = os.path.dirname(os.path.abspath(__file__))
+BASE_DIR    = os.path.dirname(_this_dir) if os.path.basename(_this_dir) == "src" else _this_dir
 DATA_DIR    = os.path.join(BASE_DIR, "data")
 MODELS_DIR  = os.path.join(BASE_DIR, "models")
 REPORTS_DIR = os.path.join(BASE_DIR, "reports")

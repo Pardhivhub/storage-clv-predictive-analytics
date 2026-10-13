@@ -8,7 +8,8 @@ into sql/clv_scored_output_data_insert.sql.
 import os
 import pandas as pd
 
-BASE_DIR   = os.path.dirname(os.path.abspath(__file__))
+_this_dir  = os.path.dirname(os.path.abspath(__file__))
+BASE_DIR   = os.path.dirname(_this_dir) if os.path.basename(_this_dir) == "src" else _this_dir
 DATA_DIR   = os.path.join(BASE_DIR, "data")
 SQL_DIR    = os.path.join(BASE_DIR, "sql")
 SCORED_CSV = os.path.join(DATA_DIR, "clv_scored_66_arrays.csv")

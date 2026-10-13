@@ -36,7 +36,8 @@ warnings.filterwarnings("ignore")
 RANDOM_STATE = 42
 N_FOLDS      = 5
 
-BASE_DIR    = os.path.dirname(os.path.abspath(__file__))
+_this_dir   = os.path.dirname(os.path.abspath(__file__))
+BASE_DIR    = os.path.dirname(_this_dir) if os.path.basename(_this_dir) == "src" else _this_dir
 DATA_DIR    = os.path.join(BASE_DIR, "data")
 MODELS_DIR  = os.path.join(BASE_DIR, "models")
 REPORTS_DIR = os.path.join(BASE_DIR, "reports")
@@ -119,13 +120,14 @@ def run_calibration(df, raw_model):
     print()
 
     # 2. Fit CalibratedClassifierCV using Sigmoid (Platt Scaling) with Group CV
-    # Note: cv generator preserves group independence during calibration fitting
+    # Note: precomputed cv_splits preserves group independence without passing groups to estimator.fit
+    cv_splits = list(cv.split(X, y, groups=groups))
     cal_model = CalibratedClassifierCV(
         estimator=raw_model,
         method="sigmoid",
-        cv=cv
+        cv=cv_splits
     )
-    cal_model.fit(X, y, groups=groups)
+    cal_model.fit(X, y)
 
     # Out-of-fold calibrated probabilities
     cal_oof_proba = np.zeros(len(y))
