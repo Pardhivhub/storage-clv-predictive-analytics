@@ -1,0 +1,24 @@
+{
+  "model_name": "xgb_calibrated_sigmoid",
+  "base_model": "xgb_tuned",
+  "calibration_method": "sigmoid (Platt Scaling)",
+  "brier_score_raw": 0.154246,
+  "brier_score_calibrated": 0.142525,
+  "brier_reduction_pct": 7.6,
+  "static_5pct_brier": 0.155299,
+  "pr_auc": 0.147068,
+  "roc_auc": 0.424145,
+  "feature_cols": [
+    "utilization_rate_pct",
+    "current_capacity_tb",
+    "profit_symlog",
+    "is_unprofitable",
+    "profit_per_tb_symlog",
+    "days_until_contract_end",
+    "expansion_High",
+    "expansion_Low",
+    "expansion_Medium",
+    "expansion_UNKNOWN"
+  ],
+  "n_training_rows": 1072
+}

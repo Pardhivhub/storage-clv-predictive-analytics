@@ -1,0 +1,30 @@
+{
+  "model_name": "xgb_tuned",
+  "model_version": "xgb_tuned_v2_nested_clv",
+  "validation_strategy": "Nested StratifiedGroupKFold (Outer=5, Inner=4)",
+  "feature_cols": [
+    "utilization_rate_pct",
+    "current_capacity_tb",
+    "profit_symlog",
+    "is_unprofitable",
+    "profit_per_tb_symlog",
+    "days_until_contract_end",
+    "expansion_High",
+    "expansion_Low",
+    "expansion_Medium",
+    "expansion_UNKNOWN"
+  ],
+  "hyperparameters": {
+    "subsample": "0.8",
+    "reg_lambda": "0.5",
+    "reg_alpha": "0",
+    "n_estimators": "100",
+    "min_child_weight": "3",
+    "max_depth": "4",
+    "learning_rate": "0.1",
+    "colsample_bytree": "0.7"
+  },
+  "n_training_records": 1072,
+  "fleet_churn_rate": 0.169776,
+  "random_state": 42
+}

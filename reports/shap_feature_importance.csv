@@ -1,0 +1,11 @@
+feature,mean_abs_shap
+current_capacity_tb,0.31665325
+profit_symlog,0.277643
+profit_per_tb_symlog,0.2747169
+days_until_contract_end,0.24869546
+utilization_rate_pct,0.20930564
+expansion_Medium,0.06611356
+expansion_High,0.04008472
+expansion_Low,0.03608384
+expansion_UNKNOWN,0.034950435
+is_unprofitable,0.0

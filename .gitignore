@@ -1,0 +1,15 @@
+# Byte-compiled / optimized
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+
+# Jupyter Checkpoints & Temporary HTML
+.ipynb_checkpoints/
+scratch/
+*.html
+*.zip
+*.tar.gz
