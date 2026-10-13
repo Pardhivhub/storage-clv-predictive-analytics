@@ -77,14 +77,21 @@ def run_backtesting():
     y      = df[TARGET_COL].values.astype(int)
     groups = df[GROUP_COL].values
 
-    # 2. Generate Out-of-Fold Calibrated Predictions
-    cv = StratifiedGroupKFold(n_splits=N_FOLDS, shuffle=True, random_state=RANDOM_STATE)
-    cal_oof_probs = np.zeros(len(y))
-
-    for train_idx, val_idx in cv.split(X, y, groups=groups):
-        fold_model = joblib.load(CAL_MODEL_PATH)["model"]
-        fold_model.fit(X[train_idx], y[train_idx])
-        cal_oof_probs[val_idx] = fold_model.predict_proba(X[val_idx])[:, 1]
+    # 2. Retrieve or Generate Out-of-Fold Calibrated Predictions
+    cal_oof_csv = os.path.join(REPORTS_DIR, "clv_calibration_oof.csv")
+    if os.path.exists(cal_oof_csv):
+        oof_df = pd.read_csv(cal_oof_csv)
+        cal_oof_probs = oof_df["calibrated_xgb_proba"].values
+        print(f"  Loaded {len(cal_oof_probs)} out-of-fold calibrated probabilities from {cal_oof_csv}")
+    else:
+        from sklearn.calibration import CalibratedClassifierCV
+        cv = StratifiedGroupKFold(n_splits=N_FOLDS, shuffle=True, random_state=RANDOM_STATE)
+        cal_oof_probs = np.zeros(len(y))
+        for train_idx, val_idx in cv.split(X, y, groups=groups):
+            raw_model = joblib.load(RAW_MODEL_PATH)["model"]
+            fold_cal = CalibratedClassifierCV(estimator=raw_model, method="sigmoid", cv=3)
+            fold_cal.fit(X[train_idx], y[train_idx])
+            cal_oof_probs[val_idx] = fold_cal.predict_proba(X[val_idx])[:, 1]
 
     df["ml_predicted_churn"]     = cal_oof_probs
     df["static_baseline_churn"]  = 0.05

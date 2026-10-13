@@ -171,6 +171,18 @@ def run_calibration(df, raw_model):
     plt.close()
     print(f"  Saved reliability curve: {curve_path}")
 
+    # Save out-of-fold predictions CSV for downstream reporting & notebook
+    oof_df = pd.DataFrame({
+        "array_id": df["array_id"],
+        "account_id": df["account_id"],
+        "actual_churn": y,
+        "raw_xgb_proba": raw_oof_proba,
+        "calibrated_xgb_proba": cal_oof_proba
+    })
+    oof_csv_path = os.path.join(REPORTS_DIR, "clv_calibration_oof.csv")
+    oof_df.to_csv(oof_csv_path, index=False)
+    print(f"  Saved calibration OOF CSV: {oof_csv_path}")
+
     # 4. Save Final Calibrated Model Artifact
     cal_meta = {
         "model_name":          "xgb_calibrated_sigmoid",

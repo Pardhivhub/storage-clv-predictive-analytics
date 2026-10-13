@@ -3,56 +3,56 @@
     "ARRAY_ID": "ARR_5062",
     "ACCOUNT_ID": "ACC_1062",
     "CHURN_PROBABILITY": 0.1627,
-    "RISK_BUCKET": "LOW",
+    "RISK_BUCKET": "MEDIUM",
     "TOP_SHAP_FEATURE": "days_until_contract_end",
     "TOP_SHAP_VALUE": 0.6915,
     "SHAP_PAYLOAD": "{\"utilization_rate_pct\": -0.227881, \"current_capacity_tb\": -0.339462, \"profit_symlog\": 0.248999, \"is_unprofitable\": 0.0, \"profit_per_tb_symlog\": -0.102496, \"days_until_contract_end\": 0.691519, \"expansion_High\": -0.011895, \"expansion_Low\": 0.033464, \"expansion_Medium\": -0.034073, \"expansion_UNKNOWN\": 0.011637}",
     "MODEL_VERSION": "xgb_tuned_v2_nested_clv",
-    "SCORED_AT": "2026-10-13 17:12:43"
+    "SCORED_AT": "2026-10-13 21:14:52"
   },
   {
     "ARRAY_ID": "ARR_5076",
     "ACCOUNT_ID": "ACC_1076",
     "CHURN_PROBABILITY": 0.1609,
-    "RISK_BUCKET": "LOW",
+    "RISK_BUCKET": "MEDIUM",
     "TOP_SHAP_FEATURE": "days_until_contract_end",
     "TOP_SHAP_VALUE": 0.4093,
     "SHAP_PAYLOAD": "{\"utilization_rate_pct\": -0.036605, \"current_capacity_tb\": -0.59559, \"profit_symlog\": 0.19552, \"is_unprofitable\": 0.0, \"profit_per_tb_symlog\": -0.351235, \"days_until_contract_end\": 0.409257, \"expansion_High\": 0.029819, \"expansion_Low\": 0.034538, \"expansion_Medium\": -0.020903, \"expansion_UNKNOWN\": 0.016926}",
     "MODEL_VERSION": "xgb_tuned_v2_nested_clv",
-    "SCORED_AT": "2026-10-13 17:12:43"
+    "SCORED_AT": "2026-10-13 21:14:52"
   },
   {
     "ARRAY_ID": "ARR_5104",
     "ACCOUNT_ID": "ACC_1104",
     "CHURN_PROBABILITY": 0.1881,
-    "RISK_BUCKET": "CRITICAL",
+    "RISK_BUCKET": "MEDIUM",
     "TOP_SHAP_FEATURE": "profit_symlog",
     "TOP_SHAP_VALUE": 0.8714,
     "SHAP_PAYLOAD": "{\"utilization_rate_pct\": -0.06732, \"current_capacity_tb\": 0.158065, \"profit_symlog\": 0.871412, \"is_unprofitable\": 0.0, \"profit_per_tb_symlog\": -0.479653, \"days_until_contract_end\": 0.029562, \"expansion_High\": -0.036647, \"expansion_Low\": -0.011571, \"expansion_Medium\": 0.056124, \"expansion_UNKNOWN\": 0.018374}",
     "MODEL_VERSION": "xgb_tuned_v2_nested_clv",
-    "SCORED_AT": "2026-10-13 17:12:43"
+    "SCORED_AT": "2026-10-13 21:14:52"
   },
   {
     "ARRAY_ID": "ARR_5113",
     "ACCOUNT_ID": "ACC_1113",
     "CHURN_PROBABILITY": 0.176,
-    "RISK_BUCKET": "HIGH",
+    "RISK_BUCKET": "MEDIUM",
     "TOP_SHAP_FEATURE": "profit_per_tb_symlog",
     "TOP_SHAP_VALUE": 0.5774,
     "SHAP_PAYLOAD": "{\"utilization_rate_pct\": 0.259205, \"current_capacity_tb\": -0.215284, \"profit_symlog\": 0.11472, \"is_unprofitable\": 0.0, \"profit_per_tb_symlog\": 0.577422, \"days_until_contract_end\": 0.363046, \"expansion_High\": 0.020144, \"expansion_Low\": 0.047526, \"expansion_Medium\": 0.023721, \"expansion_UNKNOWN\": 0.018729}",
     "MODEL_VERSION": "xgb_tuned_v2_nested_clv",
-    "SCORED_AT": "2026-10-13 17:12:43"
+    "SCORED_AT": "2026-10-13 21:14:52"
   },
   {
     "ARRAY_ID": "ARR_5133",
     "ACCOUNT_ID": "ACC_1133",
     "CHURN_PROBABILITY": 0.1614,
-    "RISK_BUCKET": "LOW",
+    "RISK_BUCKET": "MEDIUM",
     "TOP_SHAP_FEATURE": "profit_per_tb_symlog",
     "TOP_SHAP_VALUE": 0.2273,
     "SHAP_PAYLOAD": "{\"utilization_rate_pct\": -0.280553, \"current_capacity_tb\": 0.114608, \"profit_symlog\": 0.159441, \"is_unprofitable\": 0.0, \"profit_per_tb_symlog\": 0.227316, \"days_until_contract_end\": 0.063163, \"expansion_High\": -0.02148, \"expansion_Low\": -0.043615, \"expansion_Medium\": -0.0438, \"expansion_UNKNOWN\": 0.017425}",
     "MODEL_VERSION": "xgb_tuned_v2_nested_clv",
-    "SCORED_AT": "2026-10-13 17:12:43"
+    "SCORED_AT": "2026-10-13 21:14:52"
   },
   {
     "ARRAY_ID": "ARR_5201",
@@ -63,18 +63,18 @@
     "TOP_SHAP_VALUE": 0.2936,
     "SHAP_PAYLOAD": "{\"utilization_rate_pct\": -0.08681, \"current_capacity_tb\": 0.2936, \"profit_symlog\": 0.086314, \"is_unprofitable\": 0.0, \"profit_per_tb_symlog\": -0.858577, \"days_until_contract_end\": 0.126273, \"expansion_High\": -0.029677, \"expansion_Low\": -0.045153, \"expansion_Medium\": 0.01023, \"expansion_UNKNOWN\": 0.022782}",
     "MODEL_VERSION": "xgb_tuned_v2_nested_clv",
-    "SCORED_AT": "2026-10-13 17:12:43"
+    "SCORED_AT": "2026-10-13 21:14:52"
   },
   {
     "ARRAY_ID": "ARR_5308",
     "ACCOUNT_ID": "ACC_1308",
     "CHURN_PROBABILITY": 0.1933,
-    "RISK_BUCKET": "CRITICAL",
+    "RISK_BUCKET": "MEDIUM",
     "TOP_SHAP_FEATURE": "current_capacity_tb",
     "TOP_SHAP_VALUE": 0.4764,
     "SHAP_PAYLOAD": "{\"utilization_rate_pct\": 0.063815, \"current_capacity_tb\": 0.476385, \"profit_symlog\": 0.180023, \"is_unprofitable\": 0.0, \"profit_per_tb_symlog\": -0.111053, \"days_until_contract_end\": -0.00167, \"expansion_High\": -0.079131, \"expansion_Low\": 0.057555, \"expansion_Medium\": 0.018548, \"expansion_UNKNOWN\": 0.020865}",
     "MODEL_VERSION": "xgb_tuned_v2_nested_clv",
-    "SCORED_AT": "2026-10-13 17:12:43"
+    "SCORED_AT": "2026-10-13 21:14:52"
   },
   {
     "ARRAY_ID": "ARR_5311",
@@ -85,18 +85,18 @@
     "TOP_SHAP_VALUE": 0.2497,
     "SHAP_PAYLOAD": "{\"utilization_rate_pct\": -0.120413, \"current_capacity_tb\": 0.249653, \"profit_symlog\": 0.153509, \"is_unprofitable\": 0.0, \"profit_per_tb_symlog\": -0.065246, \"days_until_contract_end\": -0.075248, \"expansion_High\": 0.029736, \"expansion_Low\": 0.061902, \"expansion_Medium\": 0.021198, \"expansion_UNKNOWN\": 0.017653}",
     "MODEL_VERSION": "xgb_tuned_v2_nested_clv",
-    "SCORED_AT": "2026-10-13 17:12:43"
+    "SCORED_AT": "2026-10-13 21:14:52"
   },
   {
     "ARRAY_ID": "ARR_5384",
     "ACCOUNT_ID": "ACC_1384",
     "CHURN_PROBABILITY": 0.1539,
-    "RISK_BUCKET": "LOW",
+    "RISK_BUCKET": "MEDIUM",
     "TOP_SHAP_FEATURE": "profit_symlog",
     "TOP_SHAP_VALUE": 0.4685,
     "SHAP_PAYLOAD": "{\"utilization_rate_pct\": 0.32252, \"current_capacity_tb\": -0.178064, \"profit_symlog\": 0.468482, \"is_unprofitable\": 0.0, \"profit_per_tb_symlog\": -0.204858, \"days_until_contract_end\": -0.033995, \"expansion_High\": 0.017041, \"expansion_Low\": -0.014592, \"expansion_Medium\": -0.079002, \"expansion_UNKNOWN\": 0.012243}",
     "MODEL_VERSION": "xgb_tuned_v2_nested_clv",
-    "SCORED_AT": "2026-10-13 17:12:43"
+    "SCORED_AT": "2026-10-13 21:14:52"
   },
   {
     "ARRAY_ID": "ARR_5439",
@@ -107,7 +107,7 @@
     "TOP_SHAP_VALUE": 0.0993,
     "SHAP_PAYLOAD": "{\"utilization_rate_pct\": -0.158849, \"current_capacity_tb\": -0.608501, \"profit_symlog\": 0.099262, \"is_unprofitable\": 0.0, \"profit_per_tb_symlog\": -0.081718, \"days_until_contract_end\": -0.056693, \"expansion_High\": 0.032207, \"expansion_Low\": 0.005204, \"expansion_Medium\": -0.079538, \"expansion_UNKNOWN\": 0.016906}",
     "MODEL_VERSION": "xgb_tuned_v2_nested_clv",
-    "SCORED_AT": "2026-10-13 17:12:43"
+    "SCORED_AT": "2026-10-13 21:14:52"
   },
   {
     "ARRAY_ID": "ARR_5451",
@@ -118,7 +118,7 @@
     "TOP_SHAP_VALUE": 0.1151,
     "SHAP_PAYLOAD": "{\"utilization_rate_pct\": 0.115119, \"current_capacity_tb\": -0.184638, \"profit_symlog\": -0.255209, \"is_unprofitable\": 0.0, \"profit_per_tb_symlog\": -0.604731, \"days_until_contract_end\": -0.169753, \"expansion_High\": -0.01246, \"expansion_Low\": -0.020589, \"expansion_Medium\": -0.031929, \"expansion_UNKNOWN\": 0.019497}",
     "MODEL_VERSION": "xgb_tuned_v2_nested_clv",
-    "SCORED_AT": "2026-10-13 17:12:43"
+    "SCORED_AT": "2026-10-13 21:14:52"
   },
   {
     "ARRAY_ID": "ARR_5462",
@@ -129,18 +129,18 @@
     "TOP_SHAP_VALUE": 0.4696,
     "SHAP_PAYLOAD": "{\"utilization_rate_pct\": 0.302547, \"current_capacity_tb\": 0.469634, \"profit_symlog\": 0.112729, \"is_unprofitable\": 0.0, \"profit_per_tb_symlog\": 0.010578, \"days_until_contract_end\": -0.119586, \"expansion_High\": 0.038889, \"expansion_Low\": 0.01296, \"expansion_Medium\": 0.138291, \"expansion_UNKNOWN\": 0.015731}",
     "MODEL_VERSION": "xgb_tuned_v2_nested_clv",
-    "SCORED_AT": "2026-10-13 17:12:43"
+    "SCORED_AT": "2026-10-13 21:14:52"
   },
   {
     "ARRAY_ID": "ARR_5463",
     "ACCOUNT_ID": "ACC_1463",
     "CHURN_PROBABILITY": 0.1732,
-    "RISK_BUCKET": "HIGH",
+    "RISK_BUCKET": "MEDIUM",
     "TOP_SHAP_FEATURE": "current_capacity_tb",
     "TOP_SHAP_VALUE": 0.2747,
     "SHAP_PAYLOAD": "{\"utilization_rate_pct\": 0.223898, \"current_capacity_tb\": 0.274681, \"profit_symlog\": 0.151193, \"is_unprofitable\": 0.0, \"profit_per_tb_symlog\": 0.071318, \"days_until_contract_end\": -0.167787, \"expansion_High\": 0.046394, \"expansion_Low\": 0.01296, \"expansion_Medium\": 0.137486, \"expansion_UNKNOWN\": 0.014807}",
     "MODEL_VERSION": "xgb_tuned_v2_nested_clv",
-    "SCORED_AT": "2026-10-13 17:12:43"
+    "SCORED_AT": "2026-10-13 21:14:52"
   },
   {
     "ARRAY_ID": "ARR_5477",
@@ -151,40 +151,40 @@
     "TOP_SHAP_VALUE": 0.2419,
     "SHAP_PAYLOAD": "{\"utilization_rate_pct\": -0.319648, \"current_capacity_tb\": -0.027678, \"profit_symlog\": 0.241915, \"is_unprofitable\": 0.0, \"profit_per_tb_symlog\": -0.32942, \"days_until_contract_end\": -0.113025, \"expansion_High\": 0.087964, \"expansion_Low\": -0.014426, \"expansion_Medium\": -0.063015, \"expansion_UNKNOWN\": 0.018252}",
     "MODEL_VERSION": "xgb_tuned_v2_nested_clv",
-    "SCORED_AT": "2026-10-13 17:12:43"
+    "SCORED_AT": "2026-10-13 21:14:52"
   },
   {
     "ARRAY_ID": "ARR_5500",
     "ACCOUNT_ID": "ACC_1500",
     "CHURN_PROBABILITY": 0.1805,
-    "RISK_BUCKET": "CRITICAL",
+    "RISK_BUCKET": "MEDIUM",
     "TOP_SHAP_FEATURE": "current_capacity_tb",
     "TOP_SHAP_VALUE": 0.3706,
     "SHAP_PAYLOAD": "{\"utilization_rate_pct\": 0.127453, \"current_capacity_tb\": 0.370615, \"profit_symlog\": -0.382095, \"is_unprofitable\": 0.0, \"profit_per_tb_symlog\": 0.242802, \"days_until_contract_end\": -0.320251, \"expansion_High\": 0.028192, \"expansion_Low\": -0.033602, \"expansion_Medium\": 0.010285, \"expansion_UNKNOWN\": 0.018596}",
     "MODEL_VERSION": "xgb_tuned_v2_nested_clv",
-    "SCORED_AT": "2026-10-13 17:12:43"
+    "SCORED_AT": "2026-10-13 21:14:52"
   },
   {
     "ARRAY_ID": "ARR_5517",
     "ACCOUNT_ID": "ACC_1517",
     "CHURN_PROBABILITY": 0.1649,
-    "RISK_BUCKET": "LOW",
+    "RISK_BUCKET": "MEDIUM",
     "TOP_SHAP_FEATURE": "utilization_rate_pct",
     "TOP_SHAP_VALUE": 0.2695,
     "SHAP_PAYLOAD": "{\"utilization_rate_pct\": 0.26945, \"current_capacity_tb\": 0.164203, \"profit_symlog\": 0.186661, \"is_unprofitable\": 0.0, \"profit_per_tb_symlog\": -0.463389, \"days_until_contract_end\": -0.048673, \"expansion_High\": -0.023273, \"expansion_Low\": -0.041874, \"expansion_Medium\": -0.051211, \"expansion_UNKNOWN\": 0.019416}",
     "MODEL_VERSION": "xgb_tuned_v2_nested_clv",
-    "SCORED_AT": "2026-10-13 17:12:43"
+    "SCORED_AT": "2026-10-13 21:14:52"
   },
   {
     "ARRAY_ID": "ARR_5537",
     "ACCOUNT_ID": "ACC_1537",
     "CHURN_PROBABILITY": 0.1757,
-    "RISK_BUCKET": "HIGH",
+    "RISK_BUCKET": "MEDIUM",
     "TOP_SHAP_FEATURE": "profit_per_tb_symlog",
     "TOP_SHAP_VALUE": 0.3395,
     "SHAP_PAYLOAD": "{\"utilization_rate_pct\": -0.208813, \"current_capacity_tb\": 0.003945, \"profit_symlog\": -0.058063, \"is_unprofitable\": 0.0, \"profit_per_tb_symlog\": 0.339527, \"days_until_contract_end\": -0.020725, \"expansion_High\": -0.012356, \"expansion_Low\": -8.4e-05, \"expansion_Medium\": 0.099886, \"expansion_UNKNOWN\": 0.015731}",
     "MODEL_VERSION": "xgb_tuned_v2_nested_clv",
-    "SCORED_AT": "2026-10-13 17:12:43"
+    "SCORED_AT": "2026-10-13 21:14:52"
   },
   {
     "ARRAY_ID": "ARR_5550",
@@ -195,7 +195,7 @@
     "TOP_SHAP_VALUE": 0.554,
     "SHAP_PAYLOAD": "{\"utilization_rate_pct\": -0.205297, \"current_capacity_tb\": 0.554032, \"profit_symlog\": -0.163798, \"is_unprofitable\": 0.0, \"profit_per_tb_symlog\": 0.009217, \"days_until_contract_end\": -0.115077, \"expansion_High\": 0.188324, \"expansion_Low\": 0.054447, \"expansion_Medium\": -0.038014, \"expansion_UNKNOWN\": 0.018049}",
     "MODEL_VERSION": "xgb_tuned_v2_nested_clv",
-    "SCORED_AT": "2026-10-13 17:12:43"
+    "SCORED_AT": "2026-10-13 21:14:52"
   },
   {
     "ARRAY_ID": "ARR_5558",
@@ -206,7 +206,7 @@
     "TOP_SHAP_VALUE": 0.2172,
     "SHAP_PAYLOAD": "{\"utilization_rate_pct\": -0.167227, \"current_capacity_tb\": -0.420023, \"profit_symlog\": 0.217154, \"is_unprofitable\": 0.0, \"profit_per_tb_symlog\": -0.268461, \"days_until_contract_end\": -0.147682, \"expansion_High\": -0.11045, \"expansion_Low\": 0.058293, \"expansion_Medium\": -0.020328, \"expansion_UNKNOWN\": 0.012614}",
     "MODEL_VERSION": "xgb_tuned_v2_nested_clv",
-    "SCORED_AT": "2026-10-13 17:12:43"
+    "SCORED_AT": "2026-10-13 21:14:52"
   },
   {
     "ARRAY_ID": "ARR_5575",
@@ -217,7 +217,7 @@
     "TOP_SHAP_VALUE": 0.1886,
     "SHAP_PAYLOAD": "{\"utilization_rate_pct\": 0.188613, \"current_capacity_tb\": -0.301281, \"profit_symlog\": 0.145593, \"is_unprofitable\": 0.0, \"profit_per_tb_symlog\": 0.149471, \"days_until_contract_end\": -0.074719, \"expansion_High\": -0.036629, \"expansion_Low\": -0.065816, \"expansion_Medium\": -0.053956, \"expansion_UNKNOWN\": 0.019416}",
     "MODEL_VERSION": "xgb_tuned_v2_nested_clv",
-    "SCORED_AT": "2026-10-13 17:12:43"
+    "SCORED_AT": "2026-10-13 21:14:52"
   },
   {
     "ARRAY_ID": "ARR_5577",
@@ -228,7 +228,7 @@
     "TOP_SHAP_VALUE": 0.0208,
     "SHAP_PAYLOAD": "{\"utilization_rate_pct\": -0.31597, \"current_capacity_tb\": -0.021422, \"profit_symlog\": -0.332686, \"is_unprofitable\": 0.0, \"profit_per_tb_symlog\": -0.884872, \"days_until_contract_end\": -0.182387, \"expansion_High\": -0.010893, \"expansion_Low\": -0.017261, \"expansion_Medium\": -0.048709, \"expansion_UNKNOWN\": 0.020768}",
     "MODEL_VERSION": "xgb_tuned_v2_nested_clv",
-    "SCORED_AT": "2026-10-13 17:12:43"
+    "SCORED_AT": "2026-10-13 21:14:52"
   },
   {
     "ARRAY_ID": "ARR_5605",
@@ -239,7 +239,7 @@
     "TOP_SHAP_VALUE": 0.1496,
     "SHAP_PAYLOAD": "{\"utilization_rate_pct\": -0.02414, \"current_capacity_tb\": -0.451241, \"profit_symlog\": -0.201661, \"is_unprofitable\": 0.0, \"profit_per_tb_symlog\": 0.149612, \"days_until_contract_end\": -0.068907, \"expansion_High\": 0.022838, \"expansion_Low\": -0.019166, \"expansion_Medium\": -0.005201, \"expansion_UNKNOWN\": 0.011665}",
     "MODEL_VERSION": "xgb_tuned_v2_nested_clv",
-    "SCORED_AT": "2026-10-13 17:12:43"
+    "SCORED_AT": "2026-10-13 21:14:52"
   },
   {
     "ARRAY_ID": "ARR_5650",
@@ -250,7 +250,7 @@
     "TOP_SHAP_VALUE": 0.2285,
     "SHAP_PAYLOAD": "{\"utilization_rate_pct\": 0.228457, \"current_capacity_tb\": -0.443251, \"profit_symlog\": 0.226844, \"is_unprofitable\": 0.0, \"profit_per_tb_symlog\": -0.227992, \"days_until_contract_end\": -0.159921, \"expansion_High\": 0.13284, \"expansion_Low\": 0.027554, \"expansion_Medium\": -0.040322, \"expansion_UNKNOWN\": 0.019416}",
     "MODEL_VERSION": "xgb_tuned_v2_nested_clv",
-    "SCORED_AT": "2026-10-13 17:12:43"
+    "SCORED_AT": "2026-10-13 21:14:52"
   },
   {
     "ARRAY_ID": "ARR_5727",
@@ -261,7 +261,7 @@
     "TOP_SHAP_VALUE": 0.0626,
     "SHAP_PAYLOAD": "{\"utilization_rate_pct\": -0.374162, \"current_capacity_tb\": -0.5362, \"profit_symlog\": -0.503552, \"is_unprofitable\": 0.0, \"profit_per_tb_symlog\": 0.062553, \"days_until_contract_end\": -0.230323, \"expansion_High\": 0.038195, \"expansion_Low\": 0.020173, \"expansion_Medium\": -0.074357, \"expansion_UNKNOWN\": 0.012205}",
     "MODEL_VERSION": "xgb_tuned_v2_nested_clv",
-    "SCORED_AT": "2026-10-13 17:12:43"
+    "SCORED_AT": "2026-10-13 21:14:52"
   },
   {
     "ARRAY_ID": "ARR_5739",
@@ -272,7 +272,7 @@
     "TOP_SHAP_VALUE": 0.1298,
     "SHAP_PAYLOAD": "{\"utilization_rate_pct\": -0.0007, \"current_capacity_tb\": 0.058032, \"profit_symlog\": 0.129762, \"is_unprofitable\": 0.0, \"profit_per_tb_symlog\": -0.048392, \"days_until_contract_end\": -0.371312, \"expansion_High\": 0.004804, \"expansion_Low\": -0.0596, \"expansion_Medium\": -0.061842, \"expansion_UNKNOWN\": 0.017323}",
     "MODEL_VERSION": "xgb_tuned_v2_nested_clv",
-    "SCORED_AT": "2026-10-13 17:12:43"
+    "SCORED_AT": "2026-10-13 21:14:52"
   },
   {
     "ARRAY_ID": "ARR_5742",
@@ -283,18 +283,18 @@
     "TOP_SHAP_VALUE": 0.296,
     "SHAP_PAYLOAD": "{\"utilization_rate_pct\": -0.233909, \"current_capacity_tb\": 0.211016, \"profit_symlog\": -0.728312, \"is_unprofitable\": 0.0, \"profit_per_tb_symlog\": 0.295965, \"days_until_contract_end\": -0.218455, \"expansion_High\": 0.026439, \"expansion_Low\": -0.061053, \"expansion_Medium\": 0.007237, \"expansion_UNKNOWN\": 0.016419}",
     "MODEL_VERSION": "xgb_tuned_v2_nested_clv",
-    "SCORED_AT": "2026-10-13 17:12:43"
+    "SCORED_AT": "2026-10-13 21:14:52"
   },
   {
     "ARRAY_ID": "ARR_5747",
     "ACCOUNT_ID": "ACC_1747",
     "CHURN_PROBABILITY": 0.1644,
-    "RISK_BUCKET": "LOW",
+    "RISK_BUCKET": "MEDIUM",
     "TOP_SHAP_FEATURE": "profit_symlog",
     "TOP_SHAP_VALUE": 0.192,
     "SHAP_PAYLOAD": "{\"utilization_rate_pct\": 0.098055, \"current_capacity_tb\": -0.198065, \"profit_symlog\": 0.192005, \"is_unprofitable\": 0.0, \"profit_per_tb_symlog\": -0.118153, \"days_until_contract_end\": -0.286164, \"expansion_High\": -0.138361, \"expansion_Low\": 0.053783, \"expansion_Medium\": -0.022316, \"expansion_UNKNOWN\": 0.015373}",
     "MODEL_VERSION": "xgb_tuned_v2_nested_clv",
-    "SCORED_AT": "2026-10-13 17:12:43"
+    "SCORED_AT": "2026-10-13 21:14:52"
   },
   {
     "ARRAY_ID": "ARR_5764",
@@ -305,7 +305,7 @@
     "TOP_SHAP_VALUE": 0.3478,
     "SHAP_PAYLOAD": "{\"utilization_rate_pct\": -0.190832, \"current_capacity_tb\": 0.347783, \"profit_symlog\": -0.272986, \"is_unprofitable\": 0.0, \"profit_per_tb_symlog\": 0.048587, \"days_until_contract_end\": -0.284629, \"expansion_High\": 0.015107, \"expansion_Low\": -0.032873, \"expansion_Medium\": -0.020061, \"expansion_UNKNOWN\": 0.019574}",
     "MODEL_VERSION": "xgb_tuned_v2_nested_clv",
-    "SCORED_AT": "2026-10-13 17:12:43"
+    "SCORED_AT": "2026-10-13 21:14:52"
   },
   {
     "ARRAY_ID": "ARR_5768",
@@ -316,7 +316,7 @@
     "TOP_SHAP_VALUE": 0.1895,
     "SHAP_PAYLOAD": "{\"utilization_rate_pct\": -0.593948, \"current_capacity_tb\": 0.127675, \"profit_symlog\": 0.18952, \"is_unprofitable\": 0.0, \"profit_per_tb_symlog\": -0.092558, \"days_until_contract_end\": -0.169861, \"expansion_High\": -0.00347, \"expansion_Low\": -0.048469, \"expansion_Medium\": 0.001198, \"expansion_UNKNOWN\": 0.016406}",
     "MODEL_VERSION": "xgb_tuned_v2_nested_clv",
-    "SCORED_AT": "2026-10-13 17:12:43"
+    "SCORED_AT": "2026-10-13 21:14:52"
   },
   {
     "ARRAY_ID": "ARR_5800",
@@ -327,7 +327,7 @@
     "TOP_SHAP_VALUE": 0.0105,
     "SHAP_PAYLOAD": "{\"utilization_rate_pct\": -0.33862, \"current_capacity_tb\": -0.64042, \"profit_symlog\": -0.289877, \"is_unprofitable\": 0.0, \"profit_per_tb_symlog\": -0.236794, \"days_until_contract_end\": -0.499957, \"expansion_High\": -0.197672, \"expansion_Low\": -0.039952, \"expansion_Medium\": -0.097941, \"expansion_UNKNOWN\": 0.010479}",
     "MODEL_VERSION": "xgb_tuned_v2_nested_clv",
-    "SCORED_AT": "2026-10-13 17:12:43"
+    "SCORED_AT": "2026-10-13 21:14:52"
   },
   {
     "ARRAY_ID": "ARR_5852",
@@ -338,51 +338,51 @@
     "TOP_SHAP_VALUE": 0.434,
     "SHAP_PAYLOAD": "{\"utilization_rate_pct\": -0.012297, \"current_capacity_tb\": 0.433953, \"profit_symlog\": -0.31887, \"is_unprofitable\": 0.0, \"profit_per_tb_symlog\": -0.145764, \"days_until_contract_end\": -0.243003, \"expansion_High\": 0.104647, \"expansion_Low\": -0.016826, \"expansion_Medium\": -0.076616, \"expansion_UNKNOWN\": 0.021385}",
     "MODEL_VERSION": "xgb_tuned_v2_nested_clv",
-    "SCORED_AT": "2026-10-13 17:12:43"
+    "SCORED_AT": "2026-10-13 21:14:52"
   },
   {
     "ARRAY_ID": "ARR_5860",
     "ACCOUNT_ID": "ACC_1860",
     "CHURN_PROBABILITY": 0.1609,
-    "RISK_BUCKET": "LOW",
+    "RISK_BUCKET": "MEDIUM",
     "TOP_SHAP_FEATURE": "current_capacity_tb",
     "TOP_SHAP_VALUE": 0.4951,
     "SHAP_PAYLOAD": "{\"utilization_rate_pct\": 0.138156, \"current_capacity_tb\": 0.495104, \"profit_symlog\": -0.11235, \"is_unprofitable\": 0.0, \"profit_per_tb_symlog\": 0.27049, \"days_until_contract_end\": -0.374586, \"expansion_High\": -0.061895, \"expansion_Low\": -0.121606, \"expansion_Medium\": -0.033922, \"expansion_UNKNOWN\": 0.021841}",
     "MODEL_VERSION": "xgb_tuned_v2_nested_clv",
-    "SCORED_AT": "2026-10-13 17:12:43"
+    "SCORED_AT": "2026-10-13 21:14:52"
   },
   {
     "ARRAY_ID": "ARR_5916",
     "ACCOUNT_ID": "ACC_1916",
     "CHURN_PROBABILITY": 0.1599,
-    "RISK_BUCKET": "LOW",
+    "RISK_BUCKET": "MEDIUM",
     "TOP_SHAP_FEATURE": "utilization_rate_pct",
     "TOP_SHAP_VALUE": 0.2872,
     "SHAP_PAYLOAD": "{\"utilization_rate_pct\": 0.287156, \"current_capacity_tb\": -0.234672, \"profit_symlog\": 0.186987, \"is_unprofitable\": 0.0, \"profit_per_tb_symlog\": -0.016126, \"days_until_contract_end\": -0.186769, \"expansion_High\": 0.008035, \"expansion_Low\": 0.006771, \"expansion_Medium\": -0.083571, \"expansion_UNKNOWN\": 0.015402}",
     "MODEL_VERSION": "xgb_tuned_v2_nested_clv",
-    "SCORED_AT": "2026-10-13 17:12:43"
+    "SCORED_AT": "2026-10-13 21:14:52"
   },
   {
     "ARRAY_ID": "ARR_5935",
     "ACCOUNT_ID": "ACC_1935",
     "CHURN_PROBABILITY": 0.1604,
-    "RISK_BUCKET": "LOW",
+    "RISK_BUCKET": "MEDIUM",
     "TOP_SHAP_FEATURE": "current_capacity_tb",
     "TOP_SHAP_VALUE": 0.7361,
     "SHAP_PAYLOAD": "{\"utilization_rate_pct\": 0.112193, \"current_capacity_tb\": 0.736072, \"profit_symlog\": -0.337175, \"is_unprofitable\": 0.0, \"profit_per_tb_symlog\": -0.536219, \"days_until_contract_end\": -0.152859, \"expansion_High\": -0.00312, \"expansion_Low\": -0.054602, \"expansion_Medium\": -0.043457, \"expansion_UNKNOWN\": 0.021425}",
     "MODEL_VERSION": "xgb_tuned_v2_nested_clv",
-    "SCORED_AT": "2026-10-13 17:12:43"
+    "SCORED_AT": "2026-10-13 21:14:52"
   },
   {
     "ARRAY_ID": "ARR_5960",
     "ACCOUNT_ID": "ACC_1960",
     "CHURN_PROBABILITY": 0.1588,
-    "RISK_BUCKET": "LOW",
+    "RISK_BUCKET": "MEDIUM",
     "TOP_SHAP_FEATURE": "profit_symlog",
     "TOP_SHAP_VALUE": 0.3633,
     "SHAP_PAYLOAD": "{\"utilization_rate_pct\": 0.305987, \"current_capacity_tb\": -0.432397, \"profit_symlog\": 0.36329, \"is_unprofitable\": 0.0, \"profit_per_tb_symlog\": 0.215045, \"days_until_contract_end\": -0.43591, \"expansion_High\": -0.064087, \"expansion_Low\": -0.02137, \"expansion_Medium\": -0.125406, \"expansion_UNKNOWN\": 0.010966}",
     "MODEL_VERSION": "xgb_tuned_v2_nested_clv",
-    "SCORED_AT": "2026-10-13 17:12:43"
+    "SCORED_AT": "2026-10-13 21:14:52"
   },
   {
     "ARRAY_ID": "ARR_6004",
@@ -393,29 +393,29 @@
     "TOP_SHAP_VALUE": 0.0797,
     "SHAP_PAYLOAD": "{\"utilization_rate_pct\": -0.019496, \"current_capacity_tb\": 0.023642, \"profit_symlog\": -0.019814, \"is_unprofitable\": 0.0, \"profit_per_tb_symlog\": 0.079662, \"days_until_contract_end\": -0.276008, \"expansion_High\": -0.04388, \"expansion_Low\": -0.105302, \"expansion_Medium\": -0.025049, \"expansion_UNKNOWN\": 0.021301}",
     "MODEL_VERSION": "xgb_tuned_v2_nested_clv",
-    "SCORED_AT": "2026-10-13 17:12:43"
+    "SCORED_AT": "2026-10-13 21:14:52"
   },
   {
     "ARRAY_ID": "ARR_6010",
     "ACCOUNT_ID": "ACC_1010",
     "CHURN_PROBABILITY": 0.162,
-    "RISK_BUCKET": "LOW",
+    "RISK_BUCKET": "MEDIUM",
     "TOP_SHAP_FEATURE": "current_capacity_tb",
     "TOP_SHAP_VALUE": 0.3512,
     "SHAP_PAYLOAD": "{\"utilization_rate_pct\": -0.030304, \"current_capacity_tb\": 0.351218, \"profit_symlog\": -0.181352, \"is_unprofitable\": 0.0, \"profit_per_tb_symlog\": -0.118052, \"days_until_contract_end\": -0.438885, \"expansion_High\": 0.003768, \"expansion_Low\": -0.046491, \"expansion_Medium\": -0.022977, \"expansion_UNKNOWN\": 0.019574}",
     "MODEL_VERSION": "xgb_tuned_v2_nested_clv",
-    "SCORED_AT": "2026-10-13 17:12:43"
+    "SCORED_AT": "2026-10-13 21:14:52"
   },
   {
     "ARRAY_ID": "ARR_6029",
     "ACCOUNT_ID": "ACC_1029",
     "CHURN_PROBABILITY": 0.1594,
-    "RISK_BUCKET": "LOW",
+    "RISK_BUCKET": "MEDIUM",
     "TOP_SHAP_FEATURE": "current_capacity_tb",
     "TOP_SHAP_VALUE": 0.2494,
     "SHAP_PAYLOAD": "{\"utilization_rate_pct\": -0.088404, \"current_capacity_tb\": 0.249439, \"profit_symlog\": 0.099589, \"is_unprofitable\": 0.0, \"profit_per_tb_symlog\": -0.505213, \"days_until_contract_end\": -0.343973, \"expansion_High\": -0.027436, \"expansion_Low\": -0.045824, \"expansion_Medium\": -0.024223, \"expansion_UNKNOWN\": 0.021505}",
     "MODEL_VERSION": "xgb_tuned_v2_nested_clv",
-    "SCORED_AT": "2026-10-13 17:12:43"
+    "SCORED_AT": "2026-10-13 21:14:52"
   },
   {
     "ARRAY_ID": "ARR_6067",
@@ -426,51 +426,51 @@
     "TOP_SHAP_VALUE": 0.991,
     "SHAP_PAYLOAD": "{\"utilization_rate_pct\": 0.010747, \"current_capacity_tb\": 0.241535, \"profit_symlog\": 0.990969, \"is_unprofitable\": 0.0, \"profit_per_tb_symlog\": -0.094985, \"days_until_contract_end\": -0.087898, \"expansion_High\": -0.016708, \"expansion_Low\": 0.043925, \"expansion_Medium\": -0.084502, \"expansion_UNKNOWN\": 0.01782}",
     "MODEL_VERSION": "xgb_tuned_v2_nested_clv",
-    "SCORED_AT": "2026-10-13 17:12:43"
+    "SCORED_AT": "2026-10-13 21:14:52"
   },
   {
     "ARRAY_ID": "ARR_6089",
     "ACCOUNT_ID": "ACC_1089",
     "CHURN_PROBABILITY": 0.1633,
-    "RISK_BUCKET": "LOW",
+    "RISK_BUCKET": "MEDIUM",
     "TOP_SHAP_FEATURE": "utilization_rate_pct",
     "TOP_SHAP_VALUE": 0.155,
     "SHAP_PAYLOAD": "{\"utilization_rate_pct\": 0.155034, \"current_capacity_tb\": -0.313184, \"profit_symlog\": -0.117924, \"is_unprofitable\": 0.0, \"profit_per_tb_symlog\": -0.11805, \"days_until_contract_end\": -0.326408, \"expansion_High\": 0.045508, \"expansion_Low\": -0.056217, \"expansion_Medium\": -0.055497, \"expansion_UNKNOWN\": -0.196622}",
     "MODEL_VERSION": "xgb_tuned_v2_nested_clv",
-    "SCORED_AT": "2026-10-13 17:12:43"
+    "SCORED_AT": "2026-10-13 21:14:52"
   },
   {
     "ARRAY_ID": "ARR_6114",
     "ACCOUNT_ID": "ACC_1114",
     "CHURN_PROBABILITY": 0.174,
-    "RISK_BUCKET": "HIGH",
+    "RISK_BUCKET": "MEDIUM",
     "TOP_SHAP_FEATURE": "utilization_rate_pct",
     "TOP_SHAP_VALUE": 0.4023,
     "SHAP_PAYLOAD": "{\"utilization_rate_pct\": 0.402268, \"current_capacity_tb\": -0.473065, \"profit_symlog\": 0.221773, \"is_unprofitable\": 0.0, \"profit_per_tb_symlog\": -0.113818, \"days_until_contract_end\": -0.223664, \"expansion_High\": 0.019968, \"expansion_Low\": 0.026172, \"expansion_Medium\": 0.19574, \"expansion_UNKNOWN\": 0.011483}",
     "MODEL_VERSION": "xgb_tuned_v2_nested_clv",
-    "SCORED_AT": "2026-10-13 17:12:43"
+    "SCORED_AT": "2026-10-13 21:14:52"
   },
   {
     "ARRAY_ID": "ARR_6119",
     "ACCOUNT_ID": "ACC_1119",
     "CHURN_PROBABILITY": 0.1621,
-    "RISK_BUCKET": "LOW",
+    "RISK_BUCKET": "MEDIUM",
     "TOP_SHAP_FEATURE": "profit_per_tb_symlog",
     "TOP_SHAP_VALUE": 0.2722,
     "SHAP_PAYLOAD": "{\"utilization_rate_pct\": 0.068224, \"current_capacity_tb\": 0.105244, \"profit_symlog\": -0.526585, \"is_unprofitable\": 0.0, \"profit_per_tb_symlog\": 0.27216, \"days_until_contract_end\": -0.376161, \"expansion_High\": -0.030511, \"expansion_Low\": -0.063872, \"expansion_Medium\": -0.005827, \"expansion_UNKNOWN\": 0.016009}",
     "MODEL_VERSION": "xgb_tuned_v2_nested_clv",
-    "SCORED_AT": "2026-10-13 17:12:43"
+    "SCORED_AT": "2026-10-13 21:14:52"
   },
   {
     "ARRAY_ID": "ARR_6142",
     "ACCOUNT_ID": "ACC_1142",
     "CHURN_PROBABILITY": 0.1593,
-    "RISK_BUCKET": "LOW",
+    "RISK_BUCKET": "MEDIUM",
     "TOP_SHAP_FEATURE": "current_capacity_tb",
     "TOP_SHAP_VALUE": 0.3503,
     "SHAP_PAYLOAD": "{\"utilization_rate_pct\": -0.004952, \"current_capacity_tb\": 0.350285, \"profit_symlog\": 0.29904, \"is_unprofitable\": 0.0, \"profit_per_tb_symlog\": -0.054963, \"days_until_contract_end\": -0.030897, \"expansion_High\": -0.053923, \"expansion_Low\": 0.049219, \"expansion_Medium\": 0.196596, \"expansion_UNKNOWN\": 0.021301}",
     "MODEL_VERSION": "xgb_tuned_v2_nested_clv",
-    "SCORED_AT": "2026-10-13 17:12:43"
+    "SCORED_AT": "2026-10-13 21:14:52"
   },
   {
     "ARRAY_ID": "ARR_6182",
@@ -481,7 +481,7 @@
     "TOP_SHAP_VALUE": 0.3008,
     "SHAP_PAYLOAD": "{\"utilization_rate_pct\": -0.065234, \"current_capacity_tb\": 0.300828, \"profit_symlog\": -0.039839, \"is_unprofitable\": 0.0, \"profit_per_tb_symlog\": -0.737883, \"days_until_contract_end\": 0.251138, \"expansion_High\": -0.00834, \"expansion_Low\": 0.019296, \"expansion_Medium\": -0.041836, \"expansion_UNKNOWN\": 0.021572}",
     "MODEL_VERSION": "xgb_tuned_v2_nested_clv",
-    "SCORED_AT": "2026-10-13 17:12:43"
+    "SCORED_AT": "2026-10-13 21:14:52"
   },
   {
     "ARRAY_ID": "ARR_6207",
@@ -492,29 +492,29 @@
     "TOP_SHAP_VALUE": 0.3097,
     "SHAP_PAYLOAD": "{\"utilization_rate_pct\": -0.376975, \"current_capacity_tb\": 0.309712, \"profit_symlog\": -0.68946, \"is_unprofitable\": 0.0, \"profit_per_tb_symlog\": 0.3074, \"days_until_contract_end\": -0.00321, \"expansion_High\": -0.107675, \"expansion_Low\": -0.121663, \"expansion_Medium\": -0.029445, \"expansion_UNKNOWN\": 0.016322}",
     "MODEL_VERSION": "xgb_tuned_v2_nested_clv",
-    "SCORED_AT": "2026-10-13 17:12:43"
+    "SCORED_AT": "2026-10-13 21:14:52"
   },
   {
     "ARRAY_ID": "ARR_6262",
     "ACCOUNT_ID": "ACC_1262",
     "CHURN_PROBABILITY": 0.2089,
-    "RISK_BUCKET": "CRITICAL",
+    "RISK_BUCKET": "MEDIUM",
     "TOP_SHAP_FEATURE": "current_capacity_tb",
     "TOP_SHAP_VALUE": 0.3329,
     "SHAP_PAYLOAD": "{\"utilization_rate_pct\": 0.02314, \"current_capacity_tb\": 0.332893, \"profit_symlog\": 0.12723, \"is_unprofitable\": 0.0, \"profit_per_tb_symlog\": 0.302319, \"days_until_contract_end\": -0.329278, \"expansion_High\": 3.6e-05, \"expansion_Low\": -0.031587, \"expansion_Medium\": 0.191981, \"expansion_UNKNOWN\": 0.019162}",
     "MODEL_VERSION": "xgb_tuned_v2_nested_clv",
-    "SCORED_AT": "2026-10-13 17:12:43"
+    "SCORED_AT": "2026-10-13 21:14:52"
   },
   {
     "ARRAY_ID": "ARR_6439",
     "ACCOUNT_ID": "ACC_1439",
     "CHURN_PROBABILITY": 0.1739,
-    "RISK_BUCKET": "HIGH",
+    "RISK_BUCKET": "MEDIUM",
     "TOP_SHAP_FEATURE": "profit_per_tb_symlog",
     "TOP_SHAP_VALUE": 0.2517,
     "SHAP_PAYLOAD": "{\"utilization_rate_pct\": 0.056784, \"current_capacity_tb\": 0.061863, \"profit_symlog\": -0.445057, \"is_unprofitable\": 0.0, \"profit_per_tb_symlog\": 0.251701, \"days_until_contract_end\": -0.006223, \"expansion_High\": 0.031424, \"expansion_Low\": -0.014104, \"expansion_Medium\": 0.065639, \"expansion_UNKNOWN\": 0.015401}",
     "MODEL_VERSION": "xgb_tuned_v2_nested_clv",
-    "SCORED_AT": "2026-10-13 17:12:43"
+    "SCORED_AT": "2026-10-13 21:14:52"
   },
   {
     "ARRAY_ID": "ARR_6455",
@@ -525,40 +525,40 @@
     "TOP_SHAP_VALUE": 0.301,
     "SHAP_PAYLOAD": "{\"utilization_rate_pct\": -0.492239, \"current_capacity_tb\": 0.301016, \"profit_symlog\": -0.187685, \"is_unprofitable\": 0.0, \"profit_per_tb_symlog\": -0.559946, \"days_until_contract_end\": 0.259993, \"expansion_High\": -0.006467, \"expansion_Low\": -0.052687, \"expansion_Medium\": -0.036013, \"expansion_UNKNOWN\": 0.020861}",
     "MODEL_VERSION": "xgb_tuned_v2_nested_clv",
-    "SCORED_AT": "2026-10-13 17:12:43"
+    "SCORED_AT": "2026-10-13 21:14:52"
   },
   {
     "ARRAY_ID": "ARR_6485",
     "ACCOUNT_ID": "ACC_1485",
     "CHURN_PROBABILITY": 0.1589,
-    "RISK_BUCKET": "LOW",
+    "RISK_BUCKET": "MEDIUM",
     "TOP_SHAP_FEATURE": "utilization_rate_pct",
     "TOP_SHAP_VALUE": 0.263,
     "SHAP_PAYLOAD": "{\"utilization_rate_pct\": 0.262964, \"current_capacity_tb\": -0.505511, \"profit_symlog\": -0.150991, \"is_unprofitable\": 0.0, \"profit_per_tb_symlog\": 0.187785, \"days_until_contract_end\": 0.004906, \"expansion_High\": 0.056898, \"expansion_Low\": 0.015144, \"expansion_Medium\": -0.027771, \"expansion_UNKNOWN\": 0.014579}",
     "MODEL_VERSION": "xgb_tuned_v2_nested_clv",
-    "SCORED_AT": "2026-10-13 17:12:43"
+    "SCORED_AT": "2026-10-13 21:14:52"
   },
   {
     "ARRAY_ID": "ARR_6575",
     "ACCOUNT_ID": "ACC_1575",
     "CHURN_PROBABILITY": 0.1806,
-    "RISK_BUCKET": "CRITICAL",
+    "RISK_BUCKET": "MEDIUM",
     "TOP_SHAP_FEATURE": "days_until_contract_end",
     "TOP_SHAP_VALUE": 0.6066,
     "SHAP_PAYLOAD": "{\"utilization_rate_pct\": -0.085712, \"current_capacity_tb\": 0.071861, \"profit_symlog\": -0.202873, \"is_unprofitable\": 0.0, \"profit_per_tb_symlog\": 0.183659, \"days_until_contract_end\": 0.606645, \"expansion_High\": 0.026904, \"expansion_Low\": 0.021853, \"expansion_Medium\": 0.012062, \"expansion_UNKNOWN\": 0.017755}",
     "MODEL_VERSION": "xgb_tuned_v2_nested_clv",
-    "SCORED_AT": "2026-10-13 17:12:43"
+    "SCORED_AT": "2026-10-13 21:14:52"
   },
   {
     "ARRAY_ID": "ARR_6595",
     "ACCOUNT_ID": "ACC_1595",
     "CHURN_PROBABILITY": 0.1649,
-    "RISK_BUCKET": "LOW",
+    "RISK_BUCKET": "MEDIUM",
     "TOP_SHAP_FEATURE": "profit_symlog",
     "TOP_SHAP_VALUE": 0.5592,
     "SHAP_PAYLOAD": "{\"utilization_rate_pct\": -0.047263, \"current_capacity_tb\": 0.246233, \"profit_symlog\": 0.559152, \"is_unprofitable\": 0.0, \"profit_per_tb_symlog\": -0.62098, \"days_until_contract_end\": 0.206825, \"expansion_High\": -0.044683, \"expansion_Low\": -0.07312, \"expansion_Medium\": -0.060747, \"expansion_UNKNOWN\": 0.014421}",
     "MODEL_VERSION": "xgb_tuned_v2_nested_clv",
-    "SCORED_AT": "2026-10-13 17:12:43"
+    "SCORED_AT": "2026-10-13 21:14:52"
   },
   {
     "ARRAY_ID": "ARR_6616",
@@ -569,29 +569,29 @@
     "TOP_SHAP_VALUE": 0.9004,
     "SHAP_PAYLOAD": "{\"utilization_rate_pct\": 0.238484, \"current_capacity_tb\": 0.900419, \"profit_symlog\": -0.466669, \"is_unprofitable\": 0.0, \"profit_per_tb_symlog\": -0.030855, \"days_until_contract_end\": 0.314099, \"expansion_High\": -0.004909, \"expansion_Low\": 0.020162, \"expansion_Medium\": 0.043884, \"expansion_UNKNOWN\": 0.019847}",
     "MODEL_VERSION": "xgb_tuned_v2_nested_clv",
-    "SCORED_AT": "2026-10-13 17:12:43"
+    "SCORED_AT": "2026-10-13 21:14:52"
   },
   {
     "ARRAY_ID": "ARR_6619",
     "ACCOUNT_ID": "ACC_1619",
     "CHURN_PROBABILITY": 0.1598,
-    "RISK_BUCKET": "LOW",
+    "RISK_BUCKET": "MEDIUM",
     "TOP_SHAP_FEATURE": "profit_symlog",
     "TOP_SHAP_VALUE": 0.8002,
     "SHAP_PAYLOAD": "{\"utilization_rate_pct\": -0.239799, \"current_capacity_tb\": 0.463145, \"profit_symlog\": 0.800169, \"is_unprofitable\": 0.0, \"profit_per_tb_symlog\": 0.120371, \"days_until_contract_end\": -0.161696, \"expansion_High\": -0.009097, \"expansion_Low\": -0.02048, \"expansion_Medium\": -0.075477, \"expansion_UNKNOWN\": 0.019585}",
     "MODEL_VERSION": "xgb_tuned_v2_nested_clv",
-    "SCORED_AT": "2026-10-13 17:12:43"
+    "SCORED_AT": "2026-10-13 21:14:52"
   },
   {
     "ARRAY_ID": "ARR_6707",
     "ACCOUNT_ID": "ACC_1707",
     "CHURN_PROBABILITY": 0.1805,
-    "RISK_BUCKET": "CRITICAL",
+    "RISK_BUCKET": "MEDIUM",
     "TOP_SHAP_FEATURE": "profit_per_tb_symlog",
     "TOP_SHAP_VALUE": 0.3932,
     "SHAP_PAYLOAD": "{\"utilization_rate_pct\": -0.069114, \"current_capacity_tb\": 0.346294, \"profit_symlog\": -0.493255, \"is_unprofitable\": 0.0, \"profit_per_tb_symlog\": 0.393242, \"days_until_contract_end\": 0.001885, \"expansion_High\": 0.029096, \"expansion_Low\": 0.154746, \"expansion_Medium\": -0.047401, \"expansion_UNKNOWN\": 0.016056}",
     "MODEL_VERSION": "xgb_tuned_v2_nested_clv",
-    "SCORED_AT": "2026-10-13 17:12:43"
+    "SCORED_AT": "2026-10-13 21:14:52"
   },
   {
     "ARRAY_ID": "ARR_6720",
@@ -602,18 +602,18 @@
     "TOP_SHAP_VALUE": 0.4065,
     "SHAP_PAYLOAD": "{\"utilization_rate_pct\": -0.328188, \"current_capacity_tb\": 0.406534, \"profit_symlog\": -0.401343, \"is_unprofitable\": 0.0, \"profit_per_tb_symlog\": -0.0668, \"days_until_contract_end\": -0.165112, \"expansion_High\": 0.034709, \"expansion_Low\": -0.007989, \"expansion_Medium\": -0.059053, \"expansion_UNKNOWN\": -0.321161}",
     "MODEL_VERSION": "xgb_tuned_v2_nested_clv",
-    "SCORED_AT": "2026-10-13 17:12:43"
+    "SCORED_AT": "2026-10-13 21:14:52"
   },
   {
     "ARRAY_ID": "ARR_6774",
     "ACCOUNT_ID": "ACC_1774",
     "CHURN_PROBABILITY": 0.2163,
-    "RISK_BUCKET": "CRITICAL",
+    "RISK_BUCKET": "MEDIUM",
     "TOP_SHAP_FEATURE": "profit_per_tb_symlog",
     "TOP_SHAP_VALUE": 0.5037,
     "SHAP_PAYLOAD": "{\"utilization_rate_pct\": 0.48731, \"current_capacity_tb\": 0.139459, \"profit_symlog\": 0.496842, \"is_unprofitable\": 0.0, \"profit_per_tb_symlog\": 0.503678, \"days_until_contract_end\": -0.186684, \"expansion_High\": 0.001048, \"expansion_Low\": 0.062865, \"expansion_Medium\": -0.003875, \"expansion_UNKNOWN\": 0.020622}",
     "MODEL_VERSION": "xgb_tuned_v2_nested_clv",
-    "SCORED_AT": "2026-10-13 17:12:43"
+    "SCORED_AT": "2026-10-13 21:14:52"
   },
   {
     "ARRAY_ID": "ARR_6782",
@@ -624,18 +624,18 @@
     "TOP_SHAP_VALUE": 0.2045,
     "SHAP_PAYLOAD": "{\"utilization_rate_pct\": 0.204502, \"current_capacity_tb\": 0.06914, \"profit_symlog\": 0.163573, \"is_unprofitable\": 0.0, \"profit_per_tb_symlog\": -0.775121, \"days_until_contract_end\": -0.337108, \"expansion_High\": -0.020972, \"expansion_Low\": 0.021948, \"expansion_Medium\": 0.036917, \"expansion_UNKNOWN\": 0.021239}",
     "MODEL_VERSION": "xgb_tuned_v2_nested_clv",
-    "SCORED_AT": "2026-10-13 17:12:43"
+    "SCORED_AT": "2026-10-13 21:14:52"
   },
   {
     "ARRAY_ID": "ARR_6783",
     "ACCOUNT_ID": "ACC_1783",
     "CHURN_PROBABILITY": 0.1587,
-    "RISK_BUCKET": "LOW",
+    "RISK_BUCKET": "MEDIUM",
     "TOP_SHAP_FEATURE": "profit_symlog",
     "TOP_SHAP_VALUE": 1.0505,
     "SHAP_PAYLOAD": "{\"utilization_rate_pct\": 0.072451, \"current_capacity_tb\": 0.299761, \"profit_symlog\": 1.050519, \"is_unprofitable\": 0.0, \"profit_per_tb_symlog\": 0.2252, \"days_until_contract_end\": -0.530331, \"expansion_High\": 0.000134, \"expansion_Low\": -0.009931, \"expansion_Medium\": 0.17986, \"expansion_UNKNOWN\": 0.021119}",
     "MODEL_VERSION": "xgb_tuned_v2_nested_clv",
-    "SCORED_AT": "2026-10-13 17:12:43"
+    "SCORED_AT": "2026-10-13 21:14:52"
   },
   {
     "ARRAY_ID": "ARR_6798",
@@ -646,7 +646,7 @@
     "TOP_SHAP_VALUE": 0.1984,
     "SHAP_PAYLOAD": "{\"utilization_rate_pct\": 0.198355, \"current_capacity_tb\": -0.424618, \"profit_symlog\": -0.096138, \"is_unprofitable\": 0.0, \"profit_per_tb_symlog\": 0.05741, \"days_until_contract_end\": -0.158816, \"expansion_High\": 0.024272, \"expansion_Low\": -0.030333, \"expansion_Medium\": 0.175864, \"expansion_UNKNOWN\": 0.020074}",
     "MODEL_VERSION": "xgb_tuned_v2_nested_clv",
-    "SCORED_AT": "2026-10-13 17:12:43"
+    "SCORED_AT": "2026-10-13 21:14:52"
   },
   {
     "ARRAY_ID": "ARR_6855",
@@ -657,7 +657,7 @@
     "TOP_SHAP_VALUE": 0.251,
     "SHAP_PAYLOAD": "{\"utilization_rate_pct\": 0.202316, \"current_capacity_tb\": 0.251005, \"profit_symlog\": 0.237677, \"is_unprofitable\": 0.0, \"profit_per_tb_symlog\": -0.865006, \"days_until_contract_end\": 0.078746, \"expansion_High\": 0.00013, \"expansion_Low\": -0.007295, \"expansion_Medium\": 0.172745, \"expansion_UNKNOWN\": 0.021239}",
     "MODEL_VERSION": "xgb_tuned_v2_nested_clv",
-    "SCORED_AT": "2026-10-13 17:12:43"
+    "SCORED_AT": "2026-10-13 21:14:52"
   },
   {
     "ARRAY_ID": "ARR_6858",
@@ -668,61 +668,61 @@
     "TOP_SHAP_VALUE": 0.0196,
     "SHAP_PAYLOAD": "{\"utilization_rate_pct\": -0.526158, \"current_capacity_tb\": -0.479593, \"profit_symlog\": -0.159445, \"is_unprofitable\": 0.0, \"profit_per_tb_symlog\": -0.756984, \"days_until_contract_end\": -0.293865, \"expansion_High\": -0.021584, \"expansion_Low\": -0.01664, \"expansion_Medium\": -0.05747, \"expansion_UNKNOWN\": 0.019585}",
     "MODEL_VERSION": "xgb_tuned_v2_nested_clv",
-    "SCORED_AT": "2026-10-13 17:12:43"
+    "SCORED_AT": "2026-10-13 21:14:52"
   },
   {
     "ARRAY_ID": "ARR_6920",
     "ACCOUNT_ID": "ACC_1920",
     "CHURN_PROBABILITY": 0.175,
-    "RISK_BUCKET": "HIGH",
+    "RISK_BUCKET": "MEDIUM",
     "TOP_SHAP_FEATURE": "profit_symlog",
     "TOP_SHAP_VALUE": 0.3291,
     "SHAP_PAYLOAD": "{\"utilization_rate_pct\": 0.025294, \"current_capacity_tb\": 0.126274, \"profit_symlog\": 0.329134, \"is_unprofitable\": 0.0, \"profit_per_tb_symlog\": -0.019773, \"days_until_contract_end\": -0.068199, \"expansion_High\": 0.104738, \"expansion_Low\": 0.038683, \"expansion_Medium\": -0.050609, \"expansion_UNKNOWN\": 0.02098}",
     "MODEL_VERSION": "xgb_tuned_v2_nested_clv",
-    "SCORED_AT": "2026-10-13 17:12:43"
+    "SCORED_AT": "2026-10-13 21:14:52"
   },
   {
     "ARRAY_ID": "ARR_6949",
     "ACCOUNT_ID": "ACC_1949",
     "CHURN_PROBABILITY": 0.1737,
-    "RISK_BUCKET": "HIGH",
+    "RISK_BUCKET": "MEDIUM",
     "TOP_SHAP_FEATURE": "days_until_contract_end",
     "TOP_SHAP_VALUE": 0.0996,
     "SHAP_PAYLOAD": "{\"utilization_rate_pct\": 0.062413, \"current_capacity_tb\": -0.521647, \"profit_symlog\": -0.367982, \"is_unprofitable\": 0.0, \"profit_per_tb_symlog\": -0.192587, \"days_until_contract_end\": 0.099588, \"expansion_High\": -0.213366, \"expansion_Low\": -0.033098, \"expansion_Medium\": -0.081396, \"expansion_UNKNOWN\": 0.018364}",
     "MODEL_VERSION": "xgb_tuned_v2_nested_clv",
-    "SCORED_AT": "2026-10-13 17:12:43"
+    "SCORED_AT": "2026-10-13 21:14:52"
   },
   {
     "ARRAY_ID": "ARR_6954",
     "ACCOUNT_ID": "ACC_1954",
     "CHURN_PROBABILITY": 0.1615,
-    "RISK_BUCKET": "LOW",
+    "RISK_BUCKET": "MEDIUM",
     "TOP_SHAP_FEATURE": "current_capacity_tb",
     "TOP_SHAP_VALUE": 0.2933,
     "SHAP_PAYLOAD": "{\"utilization_rate_pct\": 0.175649, \"current_capacity_tb\": 0.293318, \"profit_symlog\": -0.536423, \"is_unprofitable\": 0.0, \"profit_per_tb_symlog\": -0.354445, \"days_until_contract_end\": 0.013503, \"expansion_High\": -0.012734, \"expansion_Low\": 0.019856, \"expansion_Medium\": -0.050667, \"expansion_UNKNOWN\": 0.021119}",
     "MODEL_VERSION": "xgb_tuned_v2_nested_clv",
-    "SCORED_AT": "2026-10-13 17:12:43"
+    "SCORED_AT": "2026-10-13 21:14:52"
   },
   {
     "ARRAY_ID": "ARR_6961",
     "ACCOUNT_ID": "ACC_1961",
     "CHURN_PROBABILITY": 0.1641,
-    "RISK_BUCKET": "LOW",
+    "RISK_BUCKET": "MEDIUM",
     "TOP_SHAP_FEATURE": "profit_symlog",
     "TOP_SHAP_VALUE": 0.6623,
     "SHAP_PAYLOAD": "{\"utilization_rate_pct\": -0.305308, \"current_capacity_tb\": -0.727668, \"profit_symlog\": 0.662271, \"is_unprofitable\": 0.0, \"profit_per_tb_symlog\": -0.692, \"days_until_contract_end\": 0.055473, \"expansion_High\": 0.006136, \"expansion_Low\": 0.038796, \"expansion_Medium\": -0.105077, \"expansion_UNKNOWN\": 0.012948}",
     "MODEL_VERSION": "xgb_tuned_v2_nested_clv",
-    "SCORED_AT": "2026-10-13 17:12:43"
+    "SCORED_AT": "2026-10-13 21:14:52"
   },
   {
     "ARRAY_ID": "ARR_6984",
     "ACCOUNT_ID": "ACC_1984",
     "CHURN_PROBABILITY": 0.1522,
-    "RISK_BUCKET": "LOW",
+    "RISK_BUCKET": "MEDIUM",
     "TOP_SHAP_FEATURE": "utilization_rate_pct",
     "TOP_SHAP_VALUE": 0.314,
     "SHAP_PAYLOAD": "{\"utilization_rate_pct\": 0.314004, \"current_capacity_tb\": 0.150627, \"profit_symlog\": 0.18524, \"is_unprofitable\": 0.0, \"profit_per_tb_symlog\": -0.043498, \"days_until_contract_end\": 0.0871, \"expansion_High\": -0.004945, \"expansion_Low\": -0.037955, \"expansion_Medium\": 0.003121, \"expansion_UNKNOWN\": 0.021239}",
     "MODEL_VERSION": "xgb_tuned_v2_nested_clv",
-    "SCORED_AT": "2026-10-13 17:12:43"
+    "SCORED_AT": "2026-10-13 21:14:52"
   }
 ]
