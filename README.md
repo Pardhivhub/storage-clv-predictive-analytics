@@ -54,5 +54,4 @@ quantify the effect on 15-year CLV, and load the results into Snowflake.
 7. **The back-test is cross-sectional.** It uses out-of-fold predictions across cohorts and has no time axis. The Expansion: UNKNOWN cohort (65 arrays) shows +4.8 pp from small-sample noise.
 8. **Snowflake scripts are syntax-reviewed only.** They have not been executed on a live account. Test them in a development schema first. The `CLUSTER BY` clause is only useful at much larger scale.
 
-### Recommended next steps
-Add operational telemetry (hardware error logs, firmware recency, support tickets, IOPS trends), refit with time-based validation, and re-evaluate before any per-array use.
+
